@@ -16,7 +16,7 @@ public class First {
     public static WebDriver driver;
 
     @BeforeMethod
-    public void browserLaunch() {
+    public void browserLaunch()  {
         try {
             // Selenium Grid Hub URL (update IP if different)
             URL gridUrl = new URL("http://192.168.1.104:4444/wd/hub");
