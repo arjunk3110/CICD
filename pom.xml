@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>CICD_Demo</groupId>
+  <artifactId>CICD_Demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ 
+
+ <dependencies>
+ 
+ <!-- TestNG Dependency -->
+ 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+    	<groupId>org.testng</groupId>
+    	<artifactId>testng</artifactId>
+    	<version>7.11.0</version>
+    	<scope>test</scope>
+	</dependency>
+
+    <!-- Selenium Dependency -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.30.0</version>
+    </dependency>
+
+    <!-- Commons IO Dependency -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.16.1</version>
+    </dependency>
+
+    <!-- Optional: SLF4J dependency to avoid warnings -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.32</version> <!-- Use an appropriate version -->
+    </dependency>
+    
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.32</version> <!-- Use an appropriate version -->
+      <scope>test</scope>
+    </dependency>
+    
+  </dependencies>
+
+  <build>
+    <plugins> 
+
+ <!-- Surefire Plugin for Running TestNG Tests -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M9</version>
+        
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+        
+      </plugin>
+      
+    </plugins> 
+   
+  </build>
+</project>

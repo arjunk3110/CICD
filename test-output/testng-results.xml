@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-06T14:52:15 BST" name="Default suite" finished-at="2025-04-06T14:52:27 BST" duration-ms="11544">
+    <groups>
+    </groups>
+    <test started-at="2025-04-06T14:52:15 BST" name="Default test" finished-at="2025-04-06T14:52:27 BST" duration-ms="11544">
+      <class name="FirstPackange.First">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:16 BST" name="browserLaunch" finished-at="2025-04-06T14:52:18 BST" duration-ms="2774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="test1()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:18 BST" name="test1" finished-at="2025-04-06T14:52:21 BST" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:21 BST" name="quit" finished-at="2025-04-06T14:52:21 BST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:21 BST" name="browserLaunch" finished-at="2025-04-06T14:52:22 BST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="test2()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:22 BST" name="test2" finished-at="2025-04-06T14:52:23 BST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:23 BST" name="quit" finished-at="2025-04-06T14:52:24 BST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:24 BST" name="browserLaunch" finished-at="2025-04-06T14:52:25 BST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="test3()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:25 BST" name="test3" finished-at="2025-04-06T14:52:27 BST" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:FirstPackange.First@4be29ed9]" started-at="2025-04-06T14:52:27 BST" name="quit" finished-at="2025-04-06T14:52:27 BST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- FirstPackange.First -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
